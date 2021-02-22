@@ -1,0 +1,52 @@
+.banner-left{
+    position: relative;
+    width: 539px;
+    height: 267px;
+    overflow: hidden;
+}
+.banner-left>.wrap{
+    position: absolute;
+    width: 3773px;
+    height: 267px;
+    z-index: 1;
+}
+.banner-left>.wrap>img{
+    float: left;
+    width: 539px;
+    height: 269px;
+}
+.banner-left>.span-list{
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    right: 165px;
+    bottom: 20px;
+    z-index: 2;
+}
+.banner-left>.span-list>span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #B0C0CA;
+}
+.banner-left>.span-list>span.on {
+    height: 20px;
+    background-color: #fff;
+}
+
+.banner-left>.btn-left, .banner-left>.btn-right{
+    position: absolute;
+    top: 48%;
+    font-size: 25px;
+    color: #fff;
+    width: 30px;
+    height: 35px;
+    background-color: #051523;
+    z-index: 2;
+}
+.banner-left>.btn-left{
+    left: 5px;
+}
+.banner-left>.btn-right{
+    right: 5px;
+}
